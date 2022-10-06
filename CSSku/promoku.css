@@ -1,0 +1,90 @@
+.promo
+{
+	background-color: var(--abu_putih);
+	display: flex;
+	justify-content: center;
+}
+
+.konten_promo
+{
+  max-width: 1440px;
+  width: 80%;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+ font-family: 'Bebas Neue', cursive;
+ font-size: 61px;
+ margin-top: 25px;
+ margin-bottom: 20px;
+ color: #8c1c13;
+}
+
+.batas_konten_fitur
+{
+	display: flex;
+	justify-content: space-between;
+
+}
+.promo_items {
+  
+  height: 420px;
+  width: 23%;
+}
+
+.image {
+
+  border-radius: 6px 6px 0px 0px;
+  width: 100%;
+}
+
+.wording_heading
+{
+	text-transform: capitalize;
+}
+
+.wording
+{
+/*	background-color: orange;*/
+	padding: 10px;
+	/*margin-bottom: 30px;*/
+}
+
+.wording p
+{
+	font-size: 16px;
+	line-height: 20.8px;
+	padding-bottom: 20px;
+	color: var(--biru_tua);
+}
+
+.wording h3
+{
+	text-transform: uppercase;
+	font-weight: 300px;
+	color:var(--biru_tua);
+}
+
+.buton
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;	
+  margin-top: 50px;
+  border: none;
+  color: white;
+  padding: 12px 10px;
+  font-size: 13px;
+  font-weight: 900;
+  border-radius: 10px;
+   background-image: linear-gradient(
+  to right,
+  var(--merah_tua),
+  var(--merah_muda) 
+  );
+display: inline;
+  cursor: pointer;
+}

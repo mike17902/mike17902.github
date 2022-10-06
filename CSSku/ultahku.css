@@ -1,0 +1,56 @@
+.ultah
+{
+	background-color: var(--oranye);
+	display: flex;
+	justify-content: space-between;
+}
+
+.kiri
+{
+	display: flex;
+  	flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100% ;
+    max-width : 1440px;
+}
+
+.image_ultah
+{
+	padding-left: 10%;
+	width: 90%;
+}
+
+.kanan
+{
+	height: 100%;
+	width: 50%;
+  	position: relative;
+}
+
+.kanan h2
+{
+  font-family: 'Montserrat', sans-serif;
+	margin-top: 60px;
+	font-size: 61px;
+	color: var(--biru_tua);
+	margin-bottom: 30px;
+  font-weight: 900;
+}
+
+.button_ultah
+{
+  background-image: linear-gradient(
+  to right,
+  var(--putih),
+  var(--abu_putih) 
+  );
+  border: none;
+  border-radius: 8px;
+  color: #1C1F33;
+  padding: 15px;
+  font-size: 13px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-weight: 700;
+}

@@ -1,0 +1,76 @@
+.banner {
+  background-image: linear-gradient(
+  to right,
+  var(--merah_tua),
+  var(--merah_muda) 
+  );
+ display: flex;
+  height: calc(100vh - 180px);
+  justify-content: center;
+}
+
+.konten_kiri
+{
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 2%;
+  max-width: 600px;
+}
+
+.konten_kiri h1
+{
+  font-family: 'Bebas Neue', cursive;
+  color: var(--putih);
+  font-size: 78px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 78px;
+}
+
+.konten_kiri p {
+  font-family: 'Montserrat', sans-serif;
+  padding-top:0;
+  color: var(--putih);
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.button_kiri {
+
+  background-image: linear-gradient(
+  to right,
+  var(--putih),
+  var(--abu_putih) 
+  );
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 15px 15px;
+  width: 115px;
+}
+
+.konten_kanan {
+  background-image: url("./imageku/Untitled-2.png");
+  background-position: top 55% left 12%;
+  height: 100%;
+  position: relative;
+  width: 60%;
+}
+.konten_kanan img {
+  position: absolute;
+  right: -50px;
+  top: -150px;
+  width: 800px;
+}
+
+
+.wrapped
+{
+	color: var(--oranye);
+}

@@ -1,0 +1,67 @@
+.header 											/*	iini buat 1 kontainer header (kotak panjang)*/
+{
+background-color: var(--biru_tua);
+  display: flex;
+  justify-content: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  z-index: 1;
+  position: relative;
+}
+
+.header_container 									/*	ini buat 1 kontainer untuk konten dalam header*/
+{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1440px;
+}
+
+.logo
+{
+ cursor: pointer;
+ width: 110px;
+}
+
+.menu
+{
+	display: flex;									/*	biar berjejer ke samping menunya*/
+	justify-content: space-between;	
+}
+
+.menu li
+{	
+	list-style-type: none;							/*ini buat ilangin titik pada list*/
+  margin-right: 40px;	
+  text-transform: capitalize;					/*ini hurup kapital*/
+}
+
+.menu li a
+{
+	text-decoration: none;
+   color: #EEEEEE;  
+}
+
+.button_header
+{
+	border: none;
+  color: #1C1F33;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 10px;
+  background-image:
+  to right,
+  var(--merah_tua),
+  var(--merah_muda) 
+  transition: 0.7s;
+}
+
+/*logo
+menu
+button_header*/

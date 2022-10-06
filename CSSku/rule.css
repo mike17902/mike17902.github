@@ -1,0 +1,16 @@
+:root {
+  --merah_tua : rgba(140,28,19,1);
+  --merah_muda: rgba(255,52,36,1);
+  --putih : rgba(253,253,255,1);
+  --abu_putih: rgba(233,233,233,1);
+  --biru_tua: rgba(28, 31, 51, 1);
+  --oranye: rgba(255, 192, 4, 1);
+ 
+}
+
+html
+{
+	font-family: "montserrat", sans-serif;
+}
+
+
